@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="zero">0</string>
+    <string name="x">X</string>
+    <string name="empty"></string>
+    <string name="box_cd">empty, 0 or X</string>
+</resources>
