@@ -8,18 +8,19 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="409dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <TableRow
             android:id="@+id/line1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <Spinner
@@ -28,6 +29,7 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
                 android:minHeight="48dp"
+                android:spinnerMode="dialog"
                 />
 
             <Spinner
@@ -35,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
 
             <Spinner
@@ -42,11 +45,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/app_name"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
         </TableRow>
+
         <TableRow
             android:id="@+id/line2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
             <Spinner
@@ -54,6 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
 
             <Spinner
@@ -61,6 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
 
             <Spinner
@@ -68,11 +75,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
         </TableRow>
+
         <TableRow
             android:id="@+id/line3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
             <Spinner
@@ -80,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
 
             <Spinner
@@ -87,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
 
             <Spinner
@@ -94,6 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/box_cd"
+                android:spinnerMode="dialog"
                 android:minHeight="48dp" />
         </TableRow>
     </TableLayout>
